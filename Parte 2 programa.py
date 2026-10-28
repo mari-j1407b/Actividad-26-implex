@@ -18,7 +18,11 @@ def mostrar_estado():
 
     # Contamos los bloques disponibles.
     libres = disco.count(0)
-
+    
+    
+    print("Estado final del disco:", disco)
+    
+    print("\nResumen del almacenamiento:")
     print("Bloques libres:", libres)
     print("Bloques ocupados:", disco.count(1))
 
@@ -66,7 +70,7 @@ def almacenar_contiguo():
     else:
         print("No existe espacio contiguo suficiente.")
         
-    print("Estado final:", disco)
+    
 
 # -----------------------------------------------------------------------------------------------
 def almacenar_no_contiguo():
@@ -108,7 +112,7 @@ def almacenar_no_contiguo():
 
         print("Espacio insuficiente.")
 
-    print("Estado final:", disco)
+# ---   
 
 
 def eliminar_archivo():
