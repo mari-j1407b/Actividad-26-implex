@@ -65,6 +65,8 @@ def almacenar_contiguo():
 
     else:
         print("No existe espacio contiguo suficiente.")
+        
+    print("Estado final:", disco)
 
 # -----------------------------------------------------------------------------------------------
 def almacenar_no_contiguo():
