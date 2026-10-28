@@ -9,7 +9,7 @@ archivos = {}
 
 def mostrar_estado():
     
-    print("Estado final del disco:", disco)
+    print("\nEstado del disco:", disco)
     print("\nDistribución de los bloques:")
     # Mostramos el estado de cada bloque.
     for posicion, estado in enumerate(disco):
